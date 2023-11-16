@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #272727;
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    margin: 0;
+    list-style: none;
+}
+
+/* Header Section */
+#navbar {
+    margin: 0 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.title--logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav--items {
+    display: flex;
+    width: 50%;
+    margin: 0;
+    color: #d1d1d1;
+    justify-content: space-between;
+}
+
+.home {
+    color: #fff;
+}
+
+li .navbar hr {
+    height: 1px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #4d4d4d;
+}
+
+/* Main Section */
+#hero {
+    margin: 6rem 10%;
+}
+
+h1 {
+    font-size: 3.7rem;
+    font-weight: bold;
+    width: 90%;
+    line-height: 5rem;
+    font-weight: normal;
+    font-family: "Sora", sans-serif;
+    background: linear-gradient(to bottom right, #3bf686, #3bf686, #4ca9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#bio {
+    margin: 0px 10%;
+    padding: 40px 0;
+}
+
+.bio--container {
+    display: flex;
+    width: 80%;
+    align-items: start;
+}
+
+.emoji--container {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to top right, #3bf686, #4ca9ff);
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.inner--circle {
+    position: absolute;
+    height: 142px;
+    width: 142px;
+    border-radius: 50%;
+    background-color: #4d4d4d;
+}
+
+.biography--container {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.biography--text {
+    color: #d6d6d6;
+    line-height: 2rem;
+}
+
+.blue--color {
+    color: #4ca9ff;
+}
+
+.lightblue--color {
+    color: #62d9ff;
+}
+
+.green--color {
+    color: #80ffa3;
+}
+
+.social--container {
+    margin-left: auto;
+}
+
+.social--icons {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.icons {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* What-I-Do Section */
+#whatIdo {
+    margin: 6rem 10%;
+    display: flex;
+    align-items: center;
+}
+
+.whatIdo--desc {
+    width: 35%;
+}
+
+.whatIdo--text {
+    color: #edcece;
+}
+
+.skill--card {
+    width: 260px;
+    padding-left: 50px;
+}
+
+.skill--info {
+    background-color: #323443;
+    padding: 50px 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill--info h3 {
+    color: #fafaf9;
+    font-size: 1rem;
+}
+
+.skill--info p {
+    color: #efede8;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.skill-icon-container {
+    position: absolute;
+    top: -18%;
+    left: 37%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #4ca9ff, #3bf686);
+    display: grid;
+    place-items: center;
+}
+
+.skill-icon-container-inner {
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+    background-color: #323443;
+}
+
+.whatIdo--icon {
+    padding-left: 50px;
+}
+
+.arrow--icon {
+    font-size: 3rem;
+    color: #f3f3f3;
+}
